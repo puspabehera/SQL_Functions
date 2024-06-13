@@ -27,8 +27,8 @@ select Name, GenderId,
 IIF(GenderId = 1, 'male', 'female') as Gender from Employee_info
 ```
 <h3>3.Case Statement Function</h3>
-```
 
+```
 select Name, GenderId,
 case when GenderId = 1
 then 'male'
