@@ -17,6 +17,17 @@ SELECT ROUND(123.1,-2)--100.0 -- (-2) will Round in form of 100.
 
 <h3>2.IIF() Function</h3>
 
+```
+using IIF() function with table data
+Declare @GenderId int
+SET @GenderId = 2
+
+select IIF(@GenderId = 1, 'male', 'female') as Gender
+
+IIF Function
+select Name, GenderId,
+IIF(GenderId = 1, 'male', 'female') as Gender from Employee_info
+```
 <h3>3.Case Statement Function</h3>
 
 ```
