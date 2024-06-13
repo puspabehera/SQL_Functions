@@ -30,10 +30,7 @@ IIF(GenderId = 1, 'male', 'female') as Gender from Employee_info
 ```
 <h3>3.Case Statement Function</h3>
 
-<div>
-  <row>
-    <col>
-      ```
+  ```
 select Name, GenderId,
 case when GenderId = 1
 then 'male'
@@ -41,17 +38,3 @@ else 'female'
 end as Gender
 from Employee_info
 ```
-  </col>
-    <col>
-    ```
-select Name, GenderId,
-case when GenderId = 1
-then 'male'
-else 'female'
-end as Gender
-from Employee_info
-```
-  </col>
-  
-  </row>
-</div>
