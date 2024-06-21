@@ -71,7 +71,7 @@ ORDER BY NEWID();
 SELECT 10.0 + (RAND() * (20.0 - 10.0)) AS RandomDecimalInRange;
 ```
 
-<h3>5. STRING_AGG WITHIN GROUP Function</h3>
+<h3>5. STRING_AGG WITHIN_GROUP Function</h3>
 
  ```
 select DeptId, STRING_AGG(EmailId,',')WITHIN GROUP (Order by EmailId) Email_List
