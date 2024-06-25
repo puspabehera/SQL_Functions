@@ -76,5 +76,5 @@ SELECT 10.0 + (RAND() * (20.0 - 10.0)) AS RandomDecimalInRange;
  ```
 select DeptId, STRING_AGG(EmailId,',')WITHIN GROUP (Order by EmailId) Email_List
 from #Emp_Details
-Group by DeptId;
+Group by DeptId ;
 ```
