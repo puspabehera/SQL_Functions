@@ -1,5 +1,5 @@
 # SQL_Functions
-System Defined Functions &amp; User Defined Functions
+System Defined Functions & amp; User Defined Functions
 <h3>System Defined Function</h3>
 <h3>1.Round() Function</h3>
 
