@@ -28,6 +28,7 @@ select IIF(@GenderId = 1, 'male', 'female') as Gender
 IIF Function
 select Name, GenderId,
 IIF(GenderId = 1, 'male', 'female') as Gender from Employee_info
+
 ```
 <h3>3.Case Statement Function</h3>
 
