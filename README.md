@@ -80,3 +80,15 @@ select DeptId, STRING_AGG(EmailId,',')WITHIN GROUP (Order by EmailId) Email_List
 from #Emp_Details
 Group by DeptId ;
 ```
+
+<h3>6.CHARINDEX() Function</h3>
+
+```
+SELECT CHARINDEX('t', 'Customer') AS MatchPosition;
+
+result
+MatchPosition
+4
+```
+
+
