@@ -88,7 +88,7 @@ SELECT CHARINDEX('t', 'Customer') AS MatchPosition;
 
 result
 MatchPosition
-4
+4 
 ```
 
 
