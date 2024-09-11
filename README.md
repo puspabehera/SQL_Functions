@@ -89,5 +89,18 @@ result
 MatchPosition
 4
 ```
+<h3> Scalar function </h3>
+```
+create function showmessage()
+returns varchar (100)
+as
+begin
+return 'welcome to function'
+end
+
+select dbo.showmessage();
+
+O/P : welcome to function
+```
 
 
