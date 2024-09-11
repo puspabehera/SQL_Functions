@@ -90,7 +90,7 @@ MatchPosition
 4
 ```
 
-<h3> Scalar function without parameter </h3>
+<h3>7. Scalar function without parameter </h3>
 
 ```
 create function showmessage()
