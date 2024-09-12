@@ -105,5 +105,30 @@ select dbo.showmessage();
 O/P : welcome to function
 
 ```
+<h3>8. Inline Table Valued function </h3>
+```
+CREATE FUNCTION ILTVF_GetEmployees()
+RETURNS TABLE
+AS
+RETURN (SELECT ID, Name, Cast(DOB AS Date) AS DOB
+        FROM Employee)
+
+SELECT * FROM ILTVF_GetEmployees()
+
+```
+
+<h3>9. Multi Statement Table Valued Function </h3>
+```
+CREATE FUNCTION MSTVF_GetEmployees()
+RETURNS @Table Table (ID int, Name nvarchar(20), DOB Date)
+AS
+BEGIN
+  INSERT INTO @Table
+    SELECT ID, Name, Cast(DOB AS Date)
+    FROM Employee
+  Return
+End
+
+```
 
 
