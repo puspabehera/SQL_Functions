@@ -117,7 +117,8 @@ SELECT * FROM ILTVF_GetEmployees()
 
 ```
 
-<h3>9. Multi Statement Table Valued Function </h3>
+<h3> 9. Multi Statement Table Valued Function </h3>
+
 ```
 CREATE FUNCTION MSTVF_GetEmployees()
 RETURNS @Table Table (ID int, Name nvarchar(20), DOB Date)
@@ -130,6 +131,7 @@ BEGIN
 End
 
 SELECT * FROM MSTVF_GetEmployees()
+
 ```
 
 
