@@ -114,9 +114,7 @@ RETURN (SELECT ID, Name, Cast(DOB AS Date) AS DOB
         FROM Employee)
 
 SELECT * FROM ILTVF_GetEmployees()
-
 ```
-
 <h3> 9. Multi Statement Table Valued Function </h3>
 
 ```
