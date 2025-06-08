@@ -3,7 +3,6 @@ System Defined Functions & amp; User Defined Functions
 <h3>System Defined Function</h3>
 <h3>1.Round() Function</h3>
 
-
 ```
 SELECT ROUND(1.756,0)   --2.000
 SELECT ROUND(1.46,0)    --1.00
